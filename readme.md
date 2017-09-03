@@ -2,16 +2,20 @@
 
 dnsmap.sh is a script enumerate DNS hostnames by brute force guessing of common
 subdomains.
-
+<br/>
 It's faster than the original [DNSMap](https://code.google.com/archive/p/dnsmap/source) by pagvac.
 and uses only 100~ lines of code.
 
 ![dnsmap.sh](https://raw.githubusercontent.com/wiki/bindh3x/dnsmap.sh/images/dnsmap_screenshot.png)
 
+# Why?
+
+[DNSMap](https://code.google.com/archive/p/dnsmap/source) is slow.
+
 # Installation
 
 ```
-$ curl -o dnsmap -L git.io/dnsmap.sh
+$ curl -o dnsmap -L https://git.io/dnsmap.sh
 $ chmod +x dnsmap
 $ ./dnsmap 
 ```
@@ -34,8 +38,12 @@ Examples:
 
 ```
 
+# Thanks
+
+Daniel Miessler - [Seclists](https://github.com/danielmiessler/SecLists) repositiroy for the word list.
+
 # Copying
 
-Copyright (c) 2017 bindh3x <os@bindh3x.io>
+Written by bindh3x <os@bindh3x.io>
 <br/>
 [![license](https://img.shields.io/github/license/bindh3x/off.svg?style=flat-square)]()
