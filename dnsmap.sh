@@ -58,7 +58,7 @@ dnsmap_fail() {
 }
 
 dnsmap_check_dep() {
-  if [ ! -x /bin/dig ];then 
+  if [ -z $(which dig) ];then 
     dnsmap_fail "please install bind-tools. (dig)"
   fi
 }
